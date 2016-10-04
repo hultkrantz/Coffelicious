@@ -1,5 +1,8 @@
 body {
  	background-color:rgb(65,74,81);}
+hr {
+	width:55%;
+	min-width:200px;}
 .h2-h4-hotfix {
 	width:80%;
 	margin:auto;
@@ -14,6 +17,13 @@ body {
 	margin-top:7px;}
 .col-xs-10-hotfix {
 	margin-top:-5px;}
+.col-xs-10-hotfix a {
+	color:rgb(174,143,81);
+	transition:all 0.2s ease;
+	text-decoration:none;}
+.col-xs-10-hotfix a:hover {
+	color:gold;
+	text-decoration:none;}
 .col-lg-6 {
 	margin:0 0 50px 0;}
 .info-row {
