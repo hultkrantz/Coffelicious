@@ -41,3 +41,6 @@ h1 {
 	text-decoration:none;}
 .row-above {
 	margin: 10px 50px 10px 50px;}
+.col-xs-1 img {
+	width:50px;
+	height:60px;}
