@@ -30,9 +30,9 @@ hr {
 	padding:20px 20px 20px 20px;}
 #form {
 	padding:50px;}
-	#form-icon {
-		width:40px;
-		height:40px;}
+.form-icon {
+	width:40px;
+	height:40px;}
 #msg {
 	justify-content:top;
 	padding-bottom:200px;
