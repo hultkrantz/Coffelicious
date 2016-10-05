@@ -121,14 +121,14 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
-        <h3>Vilken typ av maskin passar just dig?</h3>
+        <h3 id="payment">Vilken typ av maskin passar just dig?</h3>
         <select>
           <option value="" disabled selected>Apparatur</option>
           <option>Giotto Evoluzione</option>
           <option>Moccamaster</option>
           <option>Presskanna</option>
         </select>
-        <input name="maskin" id="antal" placeholder="Antal" type="text" size="3">
+        <input name="maskin" class="antal" placeholder="Antal" type="text" size="3">
       </div>   
     </div>   
   </div>
@@ -142,7 +142,7 @@
           <option>Mellanrost, Arvid Nordquist</option>
           <option>Gevalia, Ecologico</option>
         </select>
-        <input name="kaffe" id="antal" placeholder="Antal" type="text" size="3">
+        <input name="kaffe" class="antal" placeholder="Antal" type="text" size="3">
       </div>
     </div>
   </div>
@@ -157,7 +157,7 @@
         <option>Primus, Ståltermos</option>
         <option>Kaffemått</option>
       </select >
-      <input name="maskin" id="antal" placeholder="Antal" type="text" size="3">
+      <input name="maskin" class="antal" placeholder="Antal" type="text" size="3">
     </div>
   </div>  
   <br> 
@@ -203,10 +203,10 @@
     </tbody>
     <tfoot>
       <tr>
-        <td><p id="totalfot">Antal varor: 5</p></td>           
-        <td><p id="totalfot"></p></td>
+        <td><p class="totalfot">Antal varor: 5</p></td>           
+        <td><p class="totalfot"></p></td>
         <td></td>
-        <td><p id="totalfot">Totalt: 1899kr</p></td>
+        <td><p class="totalfot">Totalt: 1899kr</p></td>
       </tr>
     </tfoot>
   </table>
