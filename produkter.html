@@ -41,11 +41,11 @@
   <a href="#payment" class="order_now orderbutton">Beställ nu</a>
 </div>
 
-<section class="container text-center">
+<div class="container text-center">
   <div class="row">
     <hr/>
   </div>
-</section>
+</div>
 
 <div class="container">
   <div class="row">
@@ -117,7 +117,7 @@
   </div>
 </div>
 
-<section class="pay_2_play">
+<div class="pay_2_play">
   <div class="container">
     <div class="row">
       <div class="col-sm-8">
@@ -146,7 +146,7 @@
       </div>
     </div>
   </div>
-</section>      
+</div>      
   
 <div class="container">
   <div class="row">
@@ -231,13 +231,13 @@
         </div>                    
       </div>
       <div class="panel-body">
-        <form role="form" id="payment-form">
+        <form id="payment-form">
         <div class="row">
           <div class="col-xs-12">
             <div class="form-group">
-              <label for="cardNumber">Kortnummer</label>
+              <label>Kortnummer</label>
                 <div class="input-group">
-                  <input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" />
+                  <input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" />
                   <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
                 </div>
               </div>                            
@@ -246,21 +246,21 @@
           <div class="row">
             <div class="col-xs-7 col-md-7">
               <div class="form-group">
-                <label for="cardExpiry"><span>Sista giltighetsdatum</span></label>
-                <input type="tel" class="form-control" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
+                <label><span>Sista giltighetsdatum</span></label>
+                <input type="tel" class="form-control" name="cardExpiry" placeholder="MM / YY" required />
               </div>
             </div>
             <div class="col-xs-5 col-md-5 pull-right">
               <div class="form-group">
-                <label for="cardCVC">CV kod</label>
-                <input type="tel" class="form-control" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
+                <label>CV kod</label>
+                <input type="tel" class="form-control" name="cardCVC" placeholder="CVC" required />
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12">
               <div class="form-group">
-                <label for="couponCode">Rabattkod</label>
+                <label>Rabattkod</label>
                 <input type="text" class="form-control" name="couponCode" />
               </div>
             </div>                        
